@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.htlgrieskirchen.pos3b.lstranzinger18;
+package net.htlgrieskirchen.pos3b.lstranzinger18.EratosthenesPrime;
 
 /**
  *
@@ -15,7 +15,10 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      EratosthenesPrimeSieve er = new EratosthenesPrimeSieve(100);
+     
+      er.primeSumFinder(65);
+        
     }
     
 }
